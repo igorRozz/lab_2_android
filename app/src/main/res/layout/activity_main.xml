@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+    <fragment
+        android:id="@+id/fragment_output"
+        android:name="com.example.lab_2.Output_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment_input"
+        android:name="com.example.lab_2.Input_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="273dp" />
+
+
+</LinearLayout>
